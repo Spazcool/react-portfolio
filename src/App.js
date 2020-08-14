@@ -26,6 +26,10 @@ import projectsJSON from './data/projects.json';
 
 const useStyles = makeStyles({
   container: {
+    'margin-top': '6em',
+    'margin-bottom': '5em',
+    'border': '2px dotted red',
+
     // display: 'flex',
     // 'min-height': '83vh',
     // 'flex-direction': 'column',

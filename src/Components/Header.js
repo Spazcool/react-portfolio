@@ -19,13 +19,17 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  bar: {
+    position: 'fixed',
+  },
+
 }));
 
 export default function Header(props){
   const classes = useStyles();
   
   return (
-    <AppBar position="static">
+    <AppBar className={classes.bar}>
       <Toolbar>
         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
           <SideBar props={props}/>

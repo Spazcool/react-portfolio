@@ -12,7 +12,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import '../App.css';
 const useStyles = makeStyles({
   footer: {
-  //  'margin-top': 'calc(5% + 60px)',
     bottom: 0,
     position: 'fixed',
     width: '100%',
@@ -60,15 +59,3 @@ export default function Footer(props){
     </BottomNavigation>
   )
 };
-
-    // <footer className="mdl-mini-footer">
-    //   <ul className="mdl-mini-footer__link-list">
-    //     <li><a href="https://github.com/Spazcool"><i className="fab fa-github-square"></i> GitHub</a></li>
-    //     <li><a href="https://www.linkedin.com/in/douglaswrightiii/"><i className="fab fa-linkedin"></i> LinkedIn</a></li>
-    //     <li><a href="https://twitter.com/SpazC00l"><i className="fab fa-twitter"></i> Twitter</a></li>
-    //     <li><a href="mailto:douglas.wrightiii@gmail.com?subject=I saw your site..."><i className="fas fa-envelope"></i> Gmail</a></li>
-    //   </ul>
-    //   <div className="mdl-mini-footer__right-section">
-    //     <a href='https://www.spazcool.com'><img src='../imgs/favicons/index.ico'/></a>
-    //   </div>
-    // </footer>
