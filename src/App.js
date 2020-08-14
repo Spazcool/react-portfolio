@@ -2,30 +2,38 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+import Container from '@material-ui/core/Container';
+import { makeStyles } from '@material-ui/core/styles';
 
 import Accordian from './Components/Accordian.js';
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
-// import Project from './Components/Project.js';
 import Splash from './Components/Splash.js';
 import About from './Components/About.js';
-
-import projectsJSON from './data/projects.json';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 import './App.css';
 
-export default function App() {
-  const links = [
-    {route:'/', name:'Home'},
-    {route:'/about', name: 'About'},
-    {route:'/projects/personal', name: 'Personal Projects'},
-    {route:'/projects/freelance', name: 'Freelance Projects'}
-  ];
+import projectsJSON from './data/projects.json';
 
+// export const Container = styled.div`
+  // display: flex;
+  // min-height: 100vh;
+  // flex-direction: column;
+// `;
+
+const useStyles = makeStyles({
+  container: {
+    // display: 'flex',
+    // 'min-height': '83vh',
+    // 'flex-direction': 'column',
+  },
+});
+
+export default function App() {
+  const classes = useStyles();
   const projects = (personal) => projectsJSON.projects
     .filter((project) => personal ? !project.professional : project.professional)
     .map((project) => project);
@@ -33,21 +41,30 @@ export default function App() {
   return(
     <Router>
       <CssBaseline />
-      <Header links={links}></Header>
+      <Header/>
       <Switch>
         <Route path="/about">
-          <About />
+          <Container className={classes.container}>
+            <About />
+          </Container>
         </Route>
         <Route path="/projects/personal">
-          <Accordian projects={projects(true)}/>
+          <Container className={classes.container}>
+            <Accordian projects={projects(true)}/>
+          </Container>
         </Route>
         <Route path="/projects/freelance">
-          <Accordian projects={projects(false)}/>
+          <Container className={classes.container}>
+            <Accordian projects={projects(false)}/>
+          </Container>
         </Route>
         <Route path="/">
-          <Splash/>
+          <Container className={classes.container}>
+            <Splash/>
+          </Container>
         </Route>
       </Switch>
+
       <Footer/>
     </Router>
  )

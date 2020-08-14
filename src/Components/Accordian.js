@@ -30,7 +30,11 @@ export default function ControlledAccordions(props) {
   };
 
   const accordians = props.projects.map((project) => 
-    <Accordion expanded={expanded === project.imagePath} onChange={handleChange(project.imagePath)}>
+    <Accordion
+      key={project.url}
+      expanded={expanded === project.imagePath}
+      onChange={handleChange(project.imagePath)}
+    >
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1bh-content"
