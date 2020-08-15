@@ -4,8 +4,8 @@
 * style up the accordian
 * class to funciton of Link ripoff
 * pass url locaiton to header to change title
-* animations on hover link in project page
-* animatins on hover img in project page
+* splash page?
+* tech used icons for each project?
 * footer fcc & resume 
  -->
 

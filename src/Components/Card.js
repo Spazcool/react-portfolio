@@ -8,6 +8,11 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+
+// export default function SimpleMediaQuery() {
+//   return <span>{`(min-width:600px) matches: ${matches}`}</span>;
+// }
 
 const useStyles = makeStyles({
   root: {
@@ -20,19 +25,35 @@ const useStyles = makeStyles({
 });
 
 export default function ImgMediaCard(props) {
+  const about = props.repo ? false : true;
+  const matches = useMediaQuery('(max-width:800px)');
   const [path, setPath] = useState(`/images/projects/${props.imagePath}/mobile.png`);
+  const [mobile, setMobile] = useState('');
 
   useEffect(() => {
-    if(!props.repo){
+    if(!about){
+      if(matches){
+        setMobile('mobile')
+      }else{
+        setMobile('desktop');
+      }
+      setPath(`/images/projects/${props.imagePath}/${mobile}.png`);
+    }
+  },[matches, mobile, props.imagePath, about]);
+
+  useEffect(() => {
+    if(about){
       setPath(props.imagePath);
     }
-  },[])
+  },[props.imagePath, about]);
 
   function showGif(bool) {
-    if(bool){
-      setPath(`/images/projects/${props.imagePath}/mobile.gif`)
-    }else{
-      setPath(`/images/projects/${props.imagePath}/mobile.png`)
+    if(!about){
+      if(bool){
+        setPath(`/images/projects/${props.imagePath}/${mobile}.gif`)
+      }else{
+        setPath(`/images/projects/${props.imagePath}/${mobile}.png`)
+      }
     }
   }
 
@@ -44,7 +65,7 @@ export default function ImgMediaCard(props) {
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">{props.name}</Typography>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={8}>
+            <Grid item xs={12} md={about ? 8 : 12}>
               <Typography variant="body2" color="textSecondary" component="p">
                 {props.description}
               </Typography>
@@ -54,7 +75,7 @@ export default function ImgMediaCard(props) {
                 {props.description}
               </Typography> */}
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={about ? 4 : 12}>
               <CardMedia
                 component="img"
                 alt={props.name}

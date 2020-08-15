@@ -22,7 +22,6 @@ const useStyles = makeStyles({
   container: {
     'margin-top': '6em',
     'margin-bottom': '5em',
-    'border': '2px dotted red',
   },
 });
 

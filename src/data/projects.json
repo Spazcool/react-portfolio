@@ -5,7 +5,16 @@
     "repo": "https://github.com/Spazcool/madmoney",
     "description": "A simple blogging site built for a real estate agent. Built with React, styled with Bulma and populated with Contentful.",
     "imagePath" : "madmonnaie",
-    "professional" : true
+    "professional" : true,
+    "tech": [
+      "react",
+      "bulma",
+      "contentful",
+      "charts.js",
+      "node",
+      "S3",
+      "route53"
+    ]
   },
   {
     "name": "CB Inventory Server",
@@ -13,7 +22,17 @@
     "repo": "https://github.com/coderbunker/inventory-server",
     "description" : "An in house CMS built for CoderBunker to be used by staff and vistors to request rentals, get info on items & rooms and report problems. Built with Express, Bootstrap, Google Sheets API & utilizing QR codes for real-world user-item interactions.",
     "imagePath" : "coderbunker-inventory",
-    "professional" : true
+    "professional" : true,
+    "tech": [
+      "express",
+      "ejs",
+      "google api",
+      "react",
+      "bootstrap",
+      "node",
+      "qr-code",
+      "heroku"
+    ]
   },
   {
     "name": "Digital Dude",
@@ -21,7 +40,19 @@
     "repo": "https://github.com/megan-pg/tamagotchi",
     "description": "A retro full-stack clone of the original Tamagotchi game from the 80\"s. Create an account, add some pets & keep them alive as long as you can. Built with Node, Sequelize, jQuery, JWT & Materialize.",
     "imagePath" : "digital-dude",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "express",
+      "jQuery",
+      "mySQL",
+      "react",
+      "materialize",
+      "node",
+      "heroku",
+      "jsonWebTokens",
+      "sequelize",
+      "route53"
+    ]
   },
   {
     "name": "Burger App",
@@ -29,7 +60,16 @@
     "repo": "https://github.com/Spazcool/burger-app",
     "description": "A simple demo of a fullstack application, Eat-Da-Burger! is hosted in Heroku & utilizes a Node backend, using a RESTful API routed with Express that makes requests to a MySQL database & ultimately serves the user a view using Handlebars templates.",
     "imagePath" : "burger-app",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "express",
+      "handlebars",
+      "mySQL",
+      "node",
+      "heroku",
+      "bootstrap",
+      "sequelize"
+    ]
   },
   {
     "name": "Leaderboard",
@@ -37,7 +77,12 @@
     "repo": "https://github.com/Spazcool/leaderboard",
     "description": "A React-based leaderboard app, pulling data from freeCodeCamp's most recent forum users.",
     "imagePath" : "leaderboard",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "react",
+      "bootstrap",
+      "freecodecamp"
+    ]
   },
   {
     "name": "Employee Directory",
@@ -45,7 +90,12 @@
     "repo": "https://github.com/Spazcool/employee-directory",
     "description": "A simple demo app of an employee directory, including the ability to filter & sort the available data. A user can view an entire employee directory at once, allowing quick access to their desired information. Built with React, this app demonstrates its core ideas: breaking the UI into components, managing component state, and responding to user events.",
     "imagePath" : "employee-directory",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "react",
+      "reactbootstrap",
+      "reacticons"
+    ]
   },
   {
     "name": "Covid-19 Tracker",
@@ -53,7 +103,13 @@
     "repo": "https://github.com/Spazcool/covid-data-collector",
     "description": "Web app offering current State-by-State data related to the Covid-19 pandemic. Built with jQuery, styled with Bulma & utilizing HighCharts API for data visualization.",
     "imagePath" : "covid-tracker",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "jQuery",
+      "bulma",
+      "highcharts",
+      "covidtracking"
+    ]
   },
   {
     "name": "Weather Dashboard",
@@ -61,7 +117,13 @@
     "repo": "https://github.com/Spazcool/weather-dashboard",
     "description": "Simple weather app offering geolocation forecast on intial visit, search functionality, current & five-day forecasts. Built with jQuery, Material Design Lite & utilizing TomTom, OpenWeather & IP-Info APIs for data.",
     "imagePath" : "weather-dashboard",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "jQuery",
+      "materialdesignlite",
+      "tomtom",
+      "openWeather"
+    ]
   },
   {
     "name": "Day Planner",
@@ -69,7 +131,12 @@
     "repo": "https://github.com/Spazcool/day-planner",
     "description" : "Plan your day past, present & future. Basic task scheduler offering create & delete functionality for each hour of any day the user chooses. Built with jQuery, Bootstrap and Moment.js.",
     "imagePath" : "day-planner",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "jQuery",
+      "bootstrap",
+      "momentjs"
+    ]
   },
   {
     "name": "Password Generator",
@@ -77,7 +144,11 @@
     "repo": "https://github.com/Spazcool/password-generator",
     "description": "Create a randomized & complex password easily. Takes multiple user inputs & efficietnly computes a password that is offered and ready to copy. Built with jQuery & Bootstrap.",
     "imagePath" : "password-generator",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "jQuery",
+      "bootstrap"
+    ]
   },
   {
     "name": "Markdown Previewer",
@@ -85,7 +156,11 @@
     "repo": "https://github.com/Spazcool/markdown",
     "description": "Checkout what you're writing in Markdown. This simple app allows the user to preview their Markdown document in realtime. Built with React.",
     "imagePath" : "markdown",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "react",
+      "bootstrap"
+    ]
   },
 {
     "name": "jQuery Calculator",
@@ -93,7 +168,11 @@
     "repo": "https://github.com/Spazcool/calculator",
     "description": "A basic JS powered & Bootstrap styled calculator. One of my first projects, be gentle.",
     "imagePath" : "calculator",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "jQuery",
+      "bootstrap"
+    ]
   },
   {
     "name": "Pomodoro Timer",
@@ -101,7 +180,11 @@
     "repo": "https://github.com/Spazcool/pomodoro",
     "description" : "A pomodoro (i.e. tomato) timer to nudge you into starting any kind of task. Includes time-set & pausing functionality. Built with jQuery & styled with Bootstrap.",
     "imagePath" : "pomodoro",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "jQuery",
+      "bootstrap"
+    ]
   },
   {
     "name": "Repsonsive Portfolio",
@@ -109,7 +192,12 @@
     "repo": "https://github.com/Spazcool/responsive-portfolio",
     "description": "Simple demo site displaying the use of responsive design. Built with Bootstrap & utilizing NASA\"s APOD API.",
     "imagePath" : "responsive-portfolio",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "jQuery",
+      "bootstrap",
+      "nasaapi"
+    ]
   },
   {
     "name": "NASA Quiz",
@@ -117,7 +205,13 @@
     "repo": "https://github.com/Spazcool/nasa-quiz",
     "description" : "An interactive NASA-themed multiple choice quiz. Built with jQuery, styled with Bootstrap & utilizing the JSONBin API.",
     "imagePath" : "nasa-quiz",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "jQuery",
+      "bootstrap",
+      "nasaapi",
+      "jsonbin"
+    ]
   },
   {
     "name": "Tic Tac Toe",
@@ -125,6 +219,10 @@
     "repo": "https://github.com/Spazcool/ticTacToe",
     "description": "Battle against the computer in this classic game. Built with jQuery & Bootstrap.",
     "imagePath" : "ticTacToe",
-    "professional" : false
+    "professional" : false,
+    "tech": [
+      "jQuery",
+      "bootstrap"
+    ]
   }
 ]}
