@@ -6,6 +6,7 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import WWWIcon from '@material-ui/icons/Language';
 
 import Card from './Card.js';
 
@@ -44,7 +45,7 @@ export default function ControlledAccordions(props) {
         id="panel1bh-header"
       >
         <Typography className={classes.heading}>{project.name}</Typography>
-        <Typography className={classes.secondaryHeading}><Link to={project.url}>{project.url}</Link></Typography>
+        <Typography className={classes.secondaryHeading}><Link to={project.url}><WWWIcon/>{project.url}</Link></Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Card
@@ -53,9 +54,6 @@ export default function ControlledAccordions(props) {
           repo={project.repo}
           imagePath={project.imagePath}
         />
-        {/* // <Typography>{project.description}</Typography>
-        // <Typography>{project.repo}</Typography>
-        // <Typography><img src={`/images/projects/${project.imagePath}/mobile.png`} alt={project.name}/></Typography> */}
       </AccordionDetails>
     </Accordion>
   );

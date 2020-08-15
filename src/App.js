@@ -18,21 +18,11 @@ import './App.css';
 
 import projectsJSON from './data/projects.json';
 
-// export const Container = styled.div`
-  // display: flex;
-  // min-height: 100vh;
-  // flex-direction: column;
-// `;
-
 const useStyles = makeStyles({
   container: {
     'margin-top': '6em',
     'margin-bottom': '5em',
     'border': '2px dotted red',
-
-    // display: 'flex',
-    // 'min-height': '83vh',
-    // 'flex-direction': 'column',
   },
 });
 

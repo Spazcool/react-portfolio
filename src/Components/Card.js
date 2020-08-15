@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -20,6 +20,22 @@ const useStyles = makeStyles({
 });
 
 export default function ImgMediaCard(props) {
+  const [path, setPath] = useState(`/images/projects/${props.imagePath}/mobile.png`);
+
+  useEffect(() => {
+    if(!props.repo){
+      setPath(props.imagePath);
+    }
+  },[])
+
+  function showGif(bool) {
+    if(bool){
+      setPath(`/images/projects/${props.imagePath}/mobile.gif`)
+    }else{
+      setPath(`/images/projects/${props.imagePath}/mobile.png`)
+    }
+  }
+
   const classes = useStyles();
 
   return (
@@ -28,32 +44,30 @@ export default function ImgMediaCard(props) {
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">{props.name}</Typography>
           <Grid container spacing={3}>
-            <Grid item xs={6} md={8}>
+            <Grid item xs={12} md={8}>
               <Typography variant="body2" color="textSecondary" component="p">
                 {props.description}
               </Typography>
+              {/* 
+              todo add a tech description
+              <Typography variant="body2" color="textSecondary" component="p">
+                {props.description}
+              </Typography> */}
             </Grid>
-            <Grid item xs={6} md={4}>
+            <Grid item xs={12} md={4}>
               <CardMedia
-                className={classes.float}
                 component="img"
-                alt="Contemplative Reptile"
-                height="140"
-                image={`/images/projects/${props.imagePath}/mobile.png`}
-                title="Contemplative Reptile"
+                alt={props.name}
+                width='100%'
+                image={path}
+                title={props.name}
+                onMouseEnter={() => showGif(true)}
+                onMouseLeave={() => showGif(false)}
               />
             </Grid>
           </Grid>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
     </Card>
   );
 }

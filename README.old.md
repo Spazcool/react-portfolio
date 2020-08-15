@@ -2,10 +2,11 @@
 * dark mode toggle
 * context
 * style up the accordian
-* slide side nav
-* footer to bottom
 * class to funciton of Link ripoff
 * pass url locaiton to header to change title
+* animations on hover link in project page
+* animatins on hover img in project page
+* footer fcc & resume 
  -->
 
 

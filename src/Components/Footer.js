@@ -59,3 +59,6 @@ export default function Footer(props){
     </BottomNavigation>
   )
 };
+
+// <a href="https://www.freecodecamp.com/spazcool" target="_blank"><i className="fab fa-free-code-camp"></i></a>
+// <a href="../docs/2020CV.pdf" target="_blank"><i className="fa fa-file"></i></a>
