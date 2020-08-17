@@ -62,7 +62,7 @@ export default function TemporaryDrawer() {
             <Link
               className={classes.link}
               key='home'
-              to='/'
+              to='/react-portfolio'
             >
               <ListItem 
                 button
@@ -74,7 +74,7 @@ export default function TemporaryDrawer() {
             <Link
               className={classes.link}
               key='about'
-              to='/about'
+              to='/react-portfolio/about'
             >
               <ListItem 
                 button
@@ -89,7 +89,7 @@ export default function TemporaryDrawer() {
             <Link
               className={classes.link}
               key='personal'
-              to='/projects/personal'
+              to='/react-portfolio/projects/personal'
             >
               <ListItem 
                 button
@@ -101,7 +101,7 @@ export default function TemporaryDrawer() {
             <Link
               className={classes.link}
               key='freelance'
-              to='/projects/freelance'
+              to='/react-portfolio/projects/freelance'
               >
               <ListItem 
                 button

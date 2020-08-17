@@ -43,22 +43,22 @@ export default function App() {
         <CssBaseline />
         <Header/>
         <Switch>
-          <Route path="/about">
+          <Route path="react-portfolio/about">
             <Container className={classes.container}>
               <About />
             </Container>
           </Route>
-          <Route path="/projects/personal">
+          <Route path="/react-portfolio/projects/personal">
             <Container className={classes.container}>
               <Accordian projects={projects(true)}/>
             </Container>
           </Route>
-          <Route path="/projects/freelance">
+          <Route path="/react-portfolio/projects/freelance">
             <Container className={classes.container}>
               <Accordian projects={projects(false)}/>
             </Container>
           </Route>
-          <Route path="/">
+          <Route path="/react-portfolio">
             <Container className={classes.container}>
               <Splash/>
             </Container>
