@@ -7,13 +7,13 @@
     "imagePath" : "madmonnaie",
     "professional" : true,
     "tech": [
-      "react",
-      "bulma",
-      "contentful",
-      "charts.js",
-      "node",
+      "React",
+      "Bulma",
+      "Contentful",
+      "Charts.js",
+      "Node",
       "S3",
-      "route53"
+      "Route53"
     ]
   },
   {
@@ -24,14 +24,14 @@
     "imagePath" : "coderbunker-inventory",
     "professional" : true,
     "tech": [
-      "express",
-      "ejs",
-      "google api",
-      "react",
-      "bootstrap",
-      "node",
-      "qr-code",
-      "heroku"
+      "Express",
+      "EJS",
+      "Google API",
+      "React",
+      "Bootstrap",
+      "Node",
+      "QR-Codes",
+      "Heroku"
     ]
   },
   {
@@ -42,16 +42,16 @@
     "imagePath" : "digital-dude",
     "professional" : false,
     "tech": [
-      "express",
+      "Express",
       "jQuery",
       "mySQL",
-      "react",
-      "materialize",
-      "node",
-      "heroku",
-      "jsonWebTokens",
-      "sequelize",
-      "route53"
+      "React",
+      "Materialize",
+      "Node",
+      "Heroku",
+      "JSONWebTokens",
+      "Sequelize",
+      "Route53"
     ]
   },
   {
@@ -62,13 +62,13 @@
     "imagePath" : "burger-app",
     "professional" : false,
     "tech": [
-      "express",
-      "handlebars",
+      "Express",
+      "Handlebars",
       "mySQL",
-      "node",
-      "heroku",
-      "bootstrap",
-      "sequelize"
+      "Node",
+      "Heroku",
+      "Bootstrap",
+      "Sequelize"
     ]
   },
   {
@@ -79,9 +79,8 @@
     "imagePath" : "leaderboard",
     "professional" : false,
     "tech": [
-      "react",
-      "bootstrap",
-      "freecodecamp"
+      "React",
+      "Bootstrap"
     ]
   },
   {
@@ -92,9 +91,9 @@
     "imagePath" : "employee-directory",
     "professional" : false,
     "tech": [
-      "react",
-      "reactbootstrap",
-      "reacticons"
+      "React",
+      "React-Bootstrap",
+      "React-Icons"
     ]
   },
   {
@@ -106,9 +105,9 @@
     "professional" : false,
     "tech": [
       "jQuery",
-      "bulma",
-      "highcharts",
-      "covidtracking"
+      "Bulma",
+      "Highcharts",
+      "Covidtracking API"
     ]
   },
   {
@@ -120,9 +119,9 @@
     "professional" : false,
     "tech": [
       "jQuery",
-      "materialdesignlite",
-      "tomtom",
-      "openWeather"
+      "Material Design Lite",
+      "TomTom API",
+      "OpenWeather API"
     ]
   },
   {
@@ -134,8 +133,8 @@
     "professional" : false,
     "tech": [
       "jQuery",
-      "bootstrap",
-      "momentjs"
+      "Bootstrap",
+      "Moment.js"
     ]
   },
   {
@@ -147,7 +146,7 @@
     "professional" : false,
     "tech": [
       "jQuery",
-      "bootstrap"
+      "Bootstrap"
     ]
   },
   {
@@ -158,8 +157,8 @@
     "imagePath" : "markdown",
     "professional" : false,
     "tech": [
-      "react",
-      "bootstrap"
+      "React",
+      "Bootstrap"
     ]
   },
 {
@@ -171,7 +170,7 @@
     "professional" : false,
     "tech": [
       "jQuery",
-      "bootstrap"
+      "Bootstrap"
     ]
   },
   {
@@ -183,7 +182,7 @@
     "professional" : false,
     "tech": [
       "jQuery",
-      "bootstrap"
+      "Bootstrap"
     ]
   },
   {
@@ -195,8 +194,8 @@
     "professional" : false,
     "tech": [
       "jQuery",
-      "bootstrap",
-      "nasaapi"
+      "Bootstrap",
+      "NASA POD API"
     ]
   },
   {
@@ -208,9 +207,9 @@
     "professional" : false,
     "tech": [
       "jQuery",
-      "bootstrap",
-      "nasaapi",
-      "jsonbin"
+      "Bootstrap",
+      "NASA POD API",
+      "JSON-Bin"
     ]
   },
   {
@@ -222,7 +221,7 @@
     "professional" : false,
     "tech": [
       "jQuery",
-      "bootstrap"
+      "Bootstrap"
     ]
   }
 ]}

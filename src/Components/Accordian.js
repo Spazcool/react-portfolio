@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from './Link.js';
+
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Accordion from '@material-ui/core/Accordion';
@@ -10,6 +10,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import WWWIcon from '@material-ui/icons/Language';
 import CodeIcon from '@material-ui/icons/CodeOutlined';
 
+import Link from './Link.js';
 import Card from './Card.js';
 
 const useStyles = makeStyles((theme) => ({
@@ -29,9 +30,6 @@ const useStyles = makeStyles((theme) => ({
   text: {
     'vertical-align': 'super',
   },
-  summary: {
-    // border: '2px dotted red',
-  }
 }));
 
 export default function ControlledAccordions(props) {
@@ -52,7 +50,6 @@ export default function ControlledAccordions(props) {
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1bh-content"
         id="panel1bh-header"
-        className={classes.summary}
       >
         <Grid container spacing={3}>
           <Grid item xs={12} md={4}>
@@ -73,6 +70,8 @@ export default function ControlledAccordions(props) {
           description={project.description}
           repo={project.repo}
           imagePath={project.imagePath}
+          tech={project.tech}
+          expanded={expanded}
         />
       </AccordionDetails>
     </Accordion>

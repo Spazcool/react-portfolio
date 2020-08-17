@@ -4,15 +4,14 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Container from '@material-ui/core/Container';
-import { makeStyles } from '@material-ui/core/styles';
 
+import { makeStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
 import Accordian from './Components/Accordian.js';
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
 import Splash from './Components/Splash.js';
 import About from './Components/About.js';
-
 import CssBaseline from '@material-ui/core/CssBaseline';
 import './App.css';
 
