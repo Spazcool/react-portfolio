@@ -43,7 +43,7 @@ export default function App() {
         <CssBaseline />
         <Header/>
         <Switch>
-          <Route path="react-portfolio/about">
+          <Route path="/react-portfolio/about">
             <Container className={classes.container}>
               <About />
             </Container>
