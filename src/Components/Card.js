@@ -24,7 +24,7 @@ const useStyles = makeStyles({
 export default function ImgMediaCard(props) {
   const about = props.repo ? false : true;
   const matches = useMediaQuery('(max-width:800px)');
-  const [path, setPath] = useState(`/react-portfolio/images/projects/${props.imagePath}/mobile.png`);
+  const [path, setPath] = useState(`http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/images/projects/${props.imagePath}/mobile.png`);
   const [mobile, setMobile] = useState('');
 
   useEffect(() => {
@@ -34,7 +34,7 @@ export default function ImgMediaCard(props) {
       }else{
         setMobile('desktop');
       }
-      setPath(`/react-portfolio/images/projects/${props.imagePath}/${mobile}.png`);
+      setPath(`http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/images/projects/${props.imagePath}/${mobile}.png`);
     }
   },[matches, mobile, props.imagePath, about]);
 
@@ -47,9 +47,9 @@ export default function ImgMediaCard(props) {
   function showGif(bool) {
     if(!about){
       if(bool){
-        setPath(`/react-portfolio/images/projects/${props.imagePath}/${mobile}.gif`)
+        setPath(`http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/images/projects/${props.imagePath}/${mobile}.gif`)
       }else{
-        setPath(`/react-portfolio/images/projects/${props.imagePath}/${mobile}.png`)
+        setPath(`http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/images/projects/${props.imagePath}/${mobile}.png`)
       }
     }
   }

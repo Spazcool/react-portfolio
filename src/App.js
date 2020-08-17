@@ -43,22 +43,22 @@ export default function App() {
         <CssBaseline />
         <Header/>
         <Switch>
-          <Route path="react-portfolio/about">
+          <Route path="http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/about">
             <Container className={classes.container}>
               <About />
             </Container>
           </Route>
-          <Route path="/react-portfolio/projects/personal">
+          <Route path="http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/projects/personal">
             <Container className={classes.container}>
               <Accordian projects={projects(true)}/>
             </Container>
           </Route>
-          <Route path="/react-portfolio/projects/freelance">
+          <Route path="http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/projects/freelance">
             <Container className={classes.container}>
               <Accordian projects={projects(false)}/>
             </Container>
           </Route>
-          <Route path="/react-portfolio">
+          <Route path="http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com">
             <Container className={classes.container}>
               <Splash/>
             </Container>

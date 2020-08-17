@@ -85,7 +85,7 @@
   },
   {
     "name": "Employee Directory",
-    "url": "/employee-directory",
+    "url": "https:/www.spazcool.com/employee-directory",
     "repo": "https://github.com/Spazcool/employee-directory",
     "description": "A simple demo app of an employee directory, including the ability to filter & sort the available data. A user can view an entire employee directory at once, allowing quick access to their desired information. Built with React, this app demonstrates its core ideas: breaking the UI into components, managing component state, and responding to user events.",
     "imagePath" : "employee-directory",
@@ -112,7 +112,7 @@
   },
   {
     "name": "Weather Dashboard",
-    "url": "/weather-dashboard",
+    "url": "https:/www.spazcool.com/weather-dashboard",
     "repo": "https://github.com/Spazcool/weather-dashboard",
     "description": "Simple weather app offering geolocation forecast on intial visit, search functionality, current & five-day forecasts. Built with jQuery, Material Design Lite & utilizing TomTom, OpenWeather & IP-Info APIs for data.",
     "imagePath" : "weather-dashboard",
@@ -126,7 +126,7 @@
   },
   {
     "name": "Day Planner",
-    "url": "/day-planner",
+    "url": "https:/www.spazcool.com/day-planner",
     "repo": "https://github.com/Spazcool/day-planner",
     "description" : "Plan your day past, present & future. Basic task scheduler offering create & delete functionality for each hour of any day the user chooses. Built with jQuery, Bootstrap and Moment.js.",
     "imagePath" : "day-planner",
@@ -139,7 +139,7 @@
   },
   {
     "name": "Password Generator",
-    "url": "/password-generator",
+    "url": "https:/www.spazcool.com/password-generator",
     "repo": "https://github.com/Spazcool/password-generator",
     "description": "Create a randomized & complex password easily. Takes multiple user inputs & efficietnly computes a password that is offered and ready to copy. Built with jQuery & Bootstrap.",
     "imagePath" : "password-generator",
@@ -151,7 +151,7 @@
   },
   {
     "name": "Markdown Previewer",
-    "url": "/markdown",
+    "url": "https:/www.spazcool.com/markdown",
     "repo": "https://github.com/Spazcool/markdown",
     "description": "Checkout what you're writing in Markdown. This simple app allows the user to preview their Markdown document in realtime. Built with React.",
     "imagePath" : "markdown",
@@ -163,7 +163,7 @@
   },
 {
     "name": "jQuery Calculator",
-    "url": "/calculator",
+    "url": "https:/www.spazcool.com/calculator",
     "repo": "https://github.com/Spazcool/calculator",
     "description": "A basic JS powered & Bootstrap styled calculator. One of my first projects, be gentle.",
     "imagePath" : "calculator",
@@ -175,7 +175,7 @@
   },
   {
     "name": "Pomodoro Timer",
-    "url": "/pomodoro",
+    "url": "https:/www.spazcool.com/pomodoro",
     "repo": "https://github.com/Spazcool/pomodoro",
     "description" : "A pomodoro (i.e. tomato) timer to nudge you into starting any kind of task. Includes time-set & pausing functionality. Built with jQuery & styled with Bootstrap.",
     "imagePath" : "pomodoro",
@@ -187,7 +187,7 @@
   },
   {
     "name": "Repsonsive Portfolio",
-    "url": "/responsive-portfolio",
+    "url": "https:/www.spazcool.com/responsive-portfolio",
     "repo": "https://github.com/Spazcool/responsive-portfolio",
     "description": "Simple demo site displaying the use of responsive design. Built with Bootstrap & utilizing NASA\"s APOD API.",
     "imagePath" : "responsive-portfolio",
@@ -200,7 +200,7 @@
   },
   {
     "name": "NASA Quiz",
-    "url": "/nasa-quiz",
+    "url": "https:/www.spazcool.com/nasa-quiz",
     "repo": "https://github.com/Spazcool/nasa-quiz",
     "description" : "An interactive NASA-themed multiple choice quiz. Built with jQuery, styled with Bootstrap & utilizing the JSONBin API.",
     "imagePath" : "nasa-quiz",
@@ -214,7 +214,7 @@
   },
   {
     "name": "Tic Tac Toe",
-    "url": "/ticTacToe",
+    "url": "https:/www.spazcool.com/ticTacToe",
     "repo": "https://github.com/Spazcool/ticTacToe",
     "description": "Battle against the computer in this classic game. Built with jQuery & Bootstrap.",
     "imagePath" : "ticTacToe",

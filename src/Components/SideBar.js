@@ -62,7 +62,7 @@ export default function TemporaryDrawer() {
             <Link
               className={classes.link}
               key='home'
-              to='/react-portfolio'
+              to='http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/'
             >
               <ListItem 
                 button
@@ -74,7 +74,7 @@ export default function TemporaryDrawer() {
             <Link
               className={classes.link}
               key='about'
-              to='/react-portfolio/about'
+              to='http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/about'
             >
               <ListItem 
                 button
@@ -89,7 +89,7 @@ export default function TemporaryDrawer() {
             <Link
               className={classes.link}
               key='personal'
-              to='/react-portfolio/projects/personal'
+              to='http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/projects/personal'
             >
               <ListItem 
                 button
@@ -101,7 +101,7 @@ export default function TemporaryDrawer() {
             <Link
               className={classes.link}
               key='freelance'
-              to='/react-portfolio/projects/freelance'
+              to='http://spazcool-react-portfolio.s3-website-us-east-1.amazonaws.com/projects/freelance'
               >
               <ListItem 
                 button
