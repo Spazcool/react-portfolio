@@ -3,8 +3,8 @@
 An example portfolio page built with React & Material UI.
 
 <p align="center">
-  <img width="70%" height="300vh" src="./public/images/desktop.gif">
-  <img width="20%" height="300vh" src="./public/images/mobile.gif">
+  <img width="70%" height="300vh" src="./public/images/desktop.png">
+  <img width="20%" height="300vh" src="./public/images/mobile.png">
 </p>
 
 ## Getting Started
