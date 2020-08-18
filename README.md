@@ -9,7 +9,7 @@ An example portfolio page built with React & Material UI.
 
 ## Getting Started
 
-Play on my [site](http://www.spazcool.com/react-portfolio/) or host locally after cloning from the [Repo](https://github.com/Spazcool/react-portfolio).
+Play on my [site](https://dgwiii.github.io/react-portfolio/projects/personal) or host locally after cloning from the [Repo](https://github.com/Spazcool/react-portfolio).
 
 ### Prerequisites
 
